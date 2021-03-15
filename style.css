@@ -1,0 +1,179 @@
+body {
+  margin:0;
+  font-family: arial,sans-sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/*header section*/
+#apps-icon {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+header {
+  padding:6px;
+  height: 60px;
+  text-align: right;
+}
+
+header a {
+  color:rgba(0,0,0,0.87);
+}
+
+header div {
+  display:inline-block;
+}
+
+.header-icon img {
+  display:inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+.header-text, .header-icon {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.header-text div {
+  padding-right: 5px;
+}
+
+/* middle ssection */
+section {
+  margin-top: 170px;
+  text-align: center;
+}
+
+.main-logo {
+  width:272px;
+  height:92px;
+}
+
+/* Search bar */
+.search-bar {
+  margin: 0 auto;
+  width:582px;
+  height:34px;
+  margin-top: 26px;
+  border: 1px solid #dfe1e5;;
+  border-radius: 24px;
+  padding-top:10px;
+}
+
+.search-bar * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.glass {
+  width: 20px;
+  height:20px;
+}
+
+.mic {
+  width: 14px;
+  height:20px;
+}
+
+input {
+  width:487px;
+  font-size: 20px;
+  border:none;
+  outline: none;
+}
+
+/*Buttons*/
+.buttons {
+  margin-top: 18px;
+}
+
+
+
+.buttons div {
+  display:inline-block;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  width: 130px;
+  height:40px;
+  line-height: 40px;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.buttons a:visited {
+  color: #3c4043;
+}
+
+.buttons div:hover {
+  color: #202124;
+  border: 1px solid #dadce0;
+}
+
+/* line beneath buttons */
+.lang-select {
+  height:244.6px;
+  margin-top: 30px;
+}
+
+.lang-select a:visited {
+  color:#1a0dab;
+}
+
+/* footer */
+footer {
+  background: #f2f2f2;
+  color: rgba(0,0,0,.54);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a:visited {
+  color:#70757a;
+}
+
+.footer-top {
+  padding: 25px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.footer-bottom-left, .footer-bottom-right {
+  padding: 25px 20px;
+  display: inline-block;
+  width: 500px;
+}
+
+.footer-bottom-left a {
+  padding:16px;
+}
+
+.footer-bottom-right a {
+  padding:16px;
+}
+
+.footer-bottom-right {
+  position:absolute;
+  top: 70px;
+  right:50px;
+  text-align: right;
+  bottom:20px;
+}
